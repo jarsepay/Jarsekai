@@ -35,4 +35,4 @@ global.info = {
 }
 ```
 ### Support Server
-Got any questions or feedback? Join our Discord Server: [Discord Server](https://discord.com/invite/2t3qJzuUxH) or [WhatsApp Group](https://chat.whatsapp.com/I2y6xw47Vg2DuslgQmLjqg)
+Got any questions or feedback? Join our [Discord Server](https://discord.com/invite/2t3qJzuUxH) or [WhatsApp Group](https://chat.whatsapp.com/I2y6xw47Vg2DuslgQmLjqg)
