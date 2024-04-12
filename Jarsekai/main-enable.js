@@ -15,10 +15,23 @@ let jarsepay = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, is
 			}
 			global.opts['self'] = isEnable
 			break
+		case 'welcome':
+			if (!m.isGroup) {
+				if (!isOwner) {
+					global.dfail('group', m, conn)
+					throw false
+				}
+			} else if (!isAdmin) {
+				global.dfail('admin', m, conn)
+				throw false
+			}
+			chat.welcome = isEnable
+			break
 		default:
 			if (!/[01]/.test(command)) return m.reply(await style(`
 > Options
 • Self
+• Welcome
 
 ${usedPrefix}on self
 ${usedPrefix}off self`.trim(), 1))
