@@ -4,8 +4,6 @@
 
 **A base ESM for whatsapp bot using baileys library from whiskeysockets. Im not the real creator, but i improve it. see the [original here](https://github.com/Tiooxy/Merry-based).** 
 
-I only share the base of the script, if you want to get the other code you can see from our [whatsapp bot group](https://chat.whatsapp.com/I2y6xw47Vg2DuslgQmLjqg). i sometimes drop a code for the bot feature randomly.
-
 ### Requirements
 1. FFMPEG
 3. NodeJS 18 or higher
@@ -35,4 +33,4 @@ global.info = {
 }
 ```
 ### Support Server
-Got any questions or feedback? Join our [Discord Server](https://discord.com/invite/2t3qJzuUxH) or [WhatsApp Group](https://chat.whatsapp.com/I2y6xw47Vg2DuslgQmLjqg)
+Got any questions or feedback? Join our [Telegram Group](https://t.me/aeonnixity)
