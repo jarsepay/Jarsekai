@@ -37,7 +37,7 @@ global.url = {
     lefts: 'https://telegra.ph/file/74abb87ac6082571db546.jpg',
     sig: 'https://instagram.com/jarsepay',
     sgh: 'https://github.com/jarsepay',
-    sgc: 'https://chat.whatsapp.com/EObCKuok8tgKyHkbELtZHZ',
+    sgc: 'https://chat.whatsapp.com/LGrtCe82EpbKvxYohoRxKn',
     sdc: 'https://s.id/aeonnixity',
     sid: 'https://s.id/jarsekai'
 }
