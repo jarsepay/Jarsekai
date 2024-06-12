@@ -33,4 +33,4 @@ global.info = {
 }
 ```
 ### Support Server
-Got any questions or feedback? Join to our [WhatsApp Group](https://chat.whatsapp.com/EObCKuok8tgKyHkbELtZHZ)
+Got any questions or feedback? Join to our [WhatsApp Group](https://chat.whatsapp.com/LGrtCe82EpbKvxYohoRxKn)
