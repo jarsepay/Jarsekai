@@ -14,6 +14,9 @@
 2. Change the [owner number](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L14), [thumbs image](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L31-L43), [etc](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js).
 3. Now your bot is ready to use!
 
+### Installation
+- [Watch here](https://youtu.be/w16bTcpP59g?si=89Y6tz9gtvky-_0a)
+
 **Example:**
 ```js
 global.owner = [
