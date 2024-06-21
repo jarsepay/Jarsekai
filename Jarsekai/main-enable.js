@@ -29,7 +29,7 @@ let jarsepay = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, is
 			break
 		default:
 			if (!/[01]/.test(command)) return m.reply(await style(`
-> Options
+Options
 • Self
 • Welcome
 
