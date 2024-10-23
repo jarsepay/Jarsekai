@@ -42,13 +42,6 @@ global.url = {
     sid: 'https://s.id/jarsekai'
 }
 
-// Donasi
-global.payment = {
-    psaweria: 'https://saweria.co/renfunix',
-    gopay: '082148864989',
-    dana: '082148864989'
-}
-
 // Message
 global.msg = {
     wait: 'Sedang menjalankan perintah...',
@@ -60,12 +53,14 @@ global.api = {
     lol: 'GataDios'
 
 }
-global.APIs = {
-    lol: "https://api.lolhumaan.xyz"
-}
 
 global.APIKeys = {
     "https://api.lolhumaan.xyz": "GataDios"
+}
+
+// API
+global.APIs = {
+    lol: "https://api.lolhumaan.xyz"
 }
 
 // RPG & Levelling
