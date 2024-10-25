@@ -131,7 +131,9 @@ async function start(file) {
 
 ❲ ${chalk.bgCyan(chalk.black('Informasi Lain'))} ❳
 • Total Plugins: ${chalk.white(totalFoldersAndFiles.files)} File
-• Creator Script: ${chalk.bold.cyan('Jarsépay')}`)
+• Creator Script: ${chalk.bold.cyan('Jarsépay')}
+
+${chalk.bgWhite(chalk.black('First time using / Cannot Connect to Jarsekai? Input Your Number Starting with your Country Code, As Example 628***'))}`)
 
     } catch (err) {
         console.error(chalk.red(`Tidak dapat membaca package.json: ${err}`))
