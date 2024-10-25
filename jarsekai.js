@@ -163,33 +163,12 @@ conn.isInit = false
 global.pairingCode = true
 
 if (global.pairingCode && !conn.authState.creds.registered) {
-
-    let phoneNumber
-    if (!!global.info.pairingNumber) {
-        phoneNumber = global.info.pairingNumber.replace(/[^0-9]/g, '')
-
-        if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Mulailah dengan kode WhatsApp negara Anda, contoh : 62xxx")))
-            process.exit(0)
-        }
-    } else {
-        phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Silakan ketik nomor WhatsApp Anda : `)))
-        phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
-
-        if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Mulailah dengan kode WhatsApp negara Anda, Contoh : 62xxx")))
-
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Silakan ketik nomor WhatsApp Anda : `)))
-            phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
-            rl.close()
-        }
+    let phoneNumber = ''
+    if (!phoneNumber) {
+       phoneNumber = await question(chalk.bgGreen(chalk.black(`Nomor WhatsApp Anda: `)))
+    const code = await conn.requestPairingCode(phoneNumber)
+    console.log(chalk.bgGreen(chalk.black(`Kode Pairing: ` + code)))
     }
-
-    setTimeout(async () => {
-        let code = await conn.requestPairingCode(phoneNumber)
-        code = code?.match(/.{1,4}/g)?.join("-") || code
-        console.log(chalk.yellow(chalk.bgGreen(`Kode Pairing Anda : `)), chalk.black(chalk.white(code)))
-    }, 3000)
 }
 
 if (!opts['test']) {
