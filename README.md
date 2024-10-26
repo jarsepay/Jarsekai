@@ -10,7 +10,7 @@
 2. Server vRAM 512MB
 
 ### Setup
-1. Fill the pairing number to get the pair code, see it [here](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L19)
+1. Fill the pairing number to get the pair code. If the pairing code does not appear, enter the code consecutively until it appears
 2. Change the [owner number](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L14), [thumbs image](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L31-L43), [etc](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js).
 3. Now your bot is ready to use!
 
