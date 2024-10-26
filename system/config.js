@@ -16,7 +16,6 @@ global.owner = [
 
 // Info
 global.info = {
-    pairingNumber: '', // Please fill your number starting with your country code, example: '6282148864989'
     namaowner: 'Jarsépay',
     nomorowner: '6282148864989',
     packname: 'Sticker by ',
