@@ -164,10 +164,28 @@ global.pairingCode = true
 
 if (global.pairingCode && !conn.authState.creds.registered) {
     let phoneNumber = ''
-    if (!phoneNumber) {
-       phoneNumber = await question(chalk.bgGreen(chalk.black(`Nomor WhatsApp Anda: `)))
-    const code = await conn.requestPairingCode(phoneNumber)
-    console.log(chalk.bgGreen(chalk.black(`Kode Pairing: ` + code)))
+    
+    console.log(chalk.whiteBright('› To use Pairing Code, please enter your WhatsApp number:'))
+    console.log(chalk.whiteBright('› Example: 628123456789'))
+    
+    phoneNumber = await question(chalk.bgGreen(chalk.black(`\nEnter Your WhatsApp Number: `)))
+    phoneNumber = phoneNumber.replace(/\D/g,'')
+    
+    if (phoneNumber.length < 10 || phoneNumber.length > 13) {
+        console.log(chalk.bgRed(chalk.black('\n› Invalid phone number. Please enter a valid number.')))
+    } else {
+        console.log(chalk.cyan('› Generating Code....'))
+        
+        try {
+            const code = await conn.requestPairingCode(phoneNumber)
+            const formattedCode = code?.match(/.{1,4}/g)?.join('-') || code
+            
+            console.log(chalk.whiteBright('› Your Pairing Code:'), chalk.bgGreenBright(chalk.black(` ${formattedCode} `)))
+            console.log(chalk.whiteBright('› Please enter this code in your WhatsApp app.'))
+            
+        } catch (error) {
+            console.log(chalk.bgRed(chalk.black('Failed to generate pairing code:', error.message)))
+        }
     }
 }
 
