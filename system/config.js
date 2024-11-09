@@ -11,7 +11,7 @@ global.setting = {
 
 // Owner
 global.owner = [
-    ['6282148864989', 'Jarsépay', true]
+    ['17058093946', 'Jarsépay', true]
 ]
 
 // Info
