@@ -1,4 +1,4 @@
-![cover](https://telegra.ph/file/7d2231d69683d1bf936e0.jpg)
+![cover](https://tinyurl.com/24gmscjn)
 
 <h1 align="center">J A R S E K A I</h1>
 
