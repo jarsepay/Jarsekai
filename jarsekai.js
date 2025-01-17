@@ -263,21 +263,6 @@ async function connectionUpdate(update) {
     if (global.db.data == null) loadDatabase()
     if (connection === "open") {
         console.log(chalk.bgGreen(chalk.black(`💃 ${info.namabot} telah aktif`)))
-        conn.sendMessage('6282148864989@s.whatsapp.net', {
-            text: `╭───⌜ System Notice ⌟───\n│• Nama Bot: *${info.namabot}*\n│• Nama Pengguna: *${info.namaowner}*\n│• Status Bot: *Online*\n│• Creator Script: *Jarsépay*\n│• Github: *https://github.com/jarsepay*\n╰───────\n\nNote: Jangan jual script ini, jika ketahuan maka tidak akan ada update lagi.`,
-            contextInfo: {
-                externalAdReply: {
-                    title: `💃 ${info.namabot} telah aktif`,
-                    body: null,
-                    thumbnailUrl: url.thumb,
-                    sourceUrl: url.sgc,
-                    mediaType: 1,
-                    renderLargerThumbnail: true
-                }
-            }
-        }, {
-            quoted: null
-        })
     }
     if (connection == 'close') {
         console.log(chalk.yellow(`Koneksi bot terputus! Sedang menyambungkan ulang...`))
