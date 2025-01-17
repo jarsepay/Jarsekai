@@ -39,4 +39,4 @@ global.info = {
 > in the first time it running, the ram used may only be around 140-180mb (not more than 200mb)
 
 ### Support Server
-Got any questions or feedback? Join to our [WhatsApp Group](https://chat.whatsapp.com/LGrtCe82EpbKvxYohoRxKn)
+Got any questions or feedback? Join to our [WhatsApp Group](https://chat.whatsapp.com/B5ItQeTKctp5OvlpZltk9m)
