@@ -29,8 +29,8 @@ global.info = {
 // Thumbnail 
 global.url = {
     profil: 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
-    thumb: 'https://telegra.ph/file/7d2231d69683d1bf936e0.jpg',
-    logo: 'https://telegra.ph/file/b7a7f966703261d1266da.jpg',
+    thumb: 'https://tinyurl.com/24gmscjn',
+    logo: 'https://tinyurl.com/29g5avab',
     akses: 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg',
     welcomes: 'https://telegra.ph/file/1a5df6c2eb53d24d4254c.jpg',
     lefts: 'https://telegra.ph/file/74abb87ac6082571db546.jpg',
