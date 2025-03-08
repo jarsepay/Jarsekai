@@ -10,7 +10,7 @@
 2. Server vRAM 512MB
 
 ### Setup
-1. Fill your bot number starting with thw country code [here](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L21).
+1. Fill your bot number starting with the country code [here](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L21).
 2. Change the [owner number](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L20), [thumbs image](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L33), [etc](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js).
 3. Now your bot is ready to use!
 
