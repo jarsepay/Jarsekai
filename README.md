@@ -10,8 +10,8 @@
 2. Server vRAM 512MB
 
 ### Setup
-1. Fill the pairing number to get the pair code on the console. Enter the code consecutively until the pairing code appears, if it doesn't.
-2. Change the [owner number](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L14), [thumbs image](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js#L31-L43), [etc](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js).
+1. Fill your bot number starting with thw country code [here](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L21).
+2. Change the [owner number](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L20), [thumbs image](https://github.com/jarsepay/Jarsekai/blob/5716221ddb7bca3b615205dce456cbe22eeadb1f/system/config.js#L33), [etc](https://github.com/jarsepay/Jarsekai/blob/main/system%2Fconfig.js).
 3. Now your bot is ready to use!
 
 ### Installation
@@ -39,4 +39,4 @@ global.info = {
 > in the first time it running, the ram used may only be around 140-180mb (not more than 200mb)
 
 ### Support Server
-Got any questions or feedback? Join to our [WhatsApp Group](https://chat.whatsapp.com/B5ItQeTKctp5OvlpZltk9m)
+Got any questions or feedback? Join to our [WhatsApp Group](https://chat.whatsapp.com/LGrtCe82EpbKvxYohoRxKn)
